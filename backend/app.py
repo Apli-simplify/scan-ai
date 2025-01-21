@@ -11,7 +11,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Load pre-trained .keras model
 model = tf.keras.models.load_model(
-    '../ml_model/handwritten_recognition_model.keras')
+    '../ml_model/model.h5')
 
 
 @app.route('/predict', methods=['POST'])
@@ -36,7 +36,7 @@ def predict():
     # Make a prediction
     prediction = model.predict(img_array)
     # Get the predicted class index
-    predicted_class = np.argmax(prediction) + 1
+    predicted_class = np.argmax(prediction)
 
     # Map the predicted class index to the corresponding character
     if predicted_class < 10:
