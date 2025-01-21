@@ -115,17 +115,16 @@ The system allows users to upload images of handwritten characters or draw them 
 scan-ai/
 ├── backend/ # Flask backend
 │ ├── app.py # Flask application
-│ ├── requirements.txt # Python dependencies
-│ └── handwritten_char_model.h5 # Trained model
+│ └── requirements.txt # Python dependencies
 ├── frontend/ # React frontend
 │ ├── public/ # Static assets
 │ ├── src/ # React components
-│ │ ├── App.js # Main React component
-│ │ └── index.js # Entry point
+│ │ ├── App.jsx # Main React component
+│ │ └── main.jsx # Entry point
 │ └── package.json # Node.js dependencies
 ├── ml_model/ # Machine Learning model
 │ ├── train_model.ipynb # Jupyter Notebook for training
-│ └── dataset/ # Dataset for training
+│ └── model.h5 # Trained model
 └── README.md # Project documentation
 ```
 
