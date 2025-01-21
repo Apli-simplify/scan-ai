@@ -130,6 +130,12 @@ scan-ai/
 
 ---
 
+## Demo Video
+
+https://github.com/user-attachments/assets/8ae21839-cf6e-49fc-a128-5410ea95e379
+
+---
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://mit-license.org/) file for details.
