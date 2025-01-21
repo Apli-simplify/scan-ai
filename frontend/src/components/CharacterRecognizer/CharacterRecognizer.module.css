@@ -1,0 +1,90 @@
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.buttonsContainer button {
+    width: 100%;
+    margin: 0;
+}
+
+.buttonsHolder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.buttonsHolder button {
+    width: 48%;
+}
+
+/* Image preview styles */
+.imagePreview {
+    margin-top: 1.5rem;
+}
+
+.imagePreview h3 {
+    color: #555;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.imagePreview img {
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Upload button styles */
+/* File input styles */
+.container input[type="file"] {
+    display: none;
+    /* Hide the default file input */
+}
+
+.uploadButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.uploadButton:hover {
+    background-color: #45a049;
+}
+
+.uploadButton:active {
+    background-color: #3d8b40;
+}
+
+/* Clear button styles */
+.clearButton {
+    background-color: #d42d2d;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.clearButton:hover {
+    background-color: #a73c3c;
+}
+
+.clearButton:active {
+    background-color: #702020;
+}
