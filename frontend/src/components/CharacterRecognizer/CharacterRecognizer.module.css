@@ -1,11 +1,15 @@
 .container {
     text-align: center;
     background-color: #ffffff;
-    padding: 3rem;
+    padding: 0 3rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 100%;
+}
+
+.buttonsContainer {
+    padding: 10px;
 }
 
 .buttonsContainer button {
